@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main() {
-int rad; int PI = 3.14;
-int  area, ci;
+int rad; float PI = 3.14;
+float  area, ci;
 printf("\nEnter radius of circle: ");
-scanf("&d", rad);
+scanf("%d", &rad);
 area = PI * rad * rad;
-printf("\nArea of circle : %f ", area)
+printf("\nArea of circle : %f ", area);
 ci = 2 * PI * rad;
-printf("\nCircumference: &f , ci);
+printf("\nCircumference: %f ", ci);
 return (0);
 }
